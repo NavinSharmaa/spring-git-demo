@@ -13,6 +13,7 @@ public class SpringGitDemoApplication {
 	public static void main(String[] args) {
 		logger.info("class loaded");
 		SpringApplication.run(SpringGitDemoApplication.class, args);
+		logger.info("class loaded completed");
 	}
 
 }
